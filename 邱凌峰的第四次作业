@@ -29,4 +29,17 @@ int main(){
 	return 0;
 }
 
-(8)
+(8)#include<iostream>
+using namespace std;
+int main(){
+	int i=2,t,m=1;
+	cin>>t>>endl;
+	do
+	{if(t%i==0){
+	m=m+i;
+	i++;
+	}
+	}while(i=t);
+	cout<<m<<endl;
+	return 0;
+}
